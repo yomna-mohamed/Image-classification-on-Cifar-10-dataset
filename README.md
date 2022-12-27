@@ -13,14 +13,14 @@ The dataset is divided into five training batches and one test batch, each with 
 ## Dataset Preparation 
 Download dataset from keras using :Data=tf.keras.datasets.cifar10.load_data() Split the data into train and test and validation Visualize five samples from each class then applying Normalization on the data
 
-#Models
-##KNN
+# Models
+## KNN
 using Euclidean distance to measure th distance between every point 
 
 Drawing the confusion matrix and evaluate by accuracy score
-##LR
+## LR
 Using logistic regression from sklearn and build OvR from scratch to achieve multi-class classfication how to do this by train a binary classifier for each class therefore need 10 models to obtain the predicted class by select the argmax
 
-##Add regularization term L1
+## Add regularization term L1
 
-##Adding gamma with different range
+## Adding gamma with different range
